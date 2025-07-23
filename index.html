@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecodiamonk - Solusi Herbal Terpercaya | Abdul Aziz</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/ecodiamonk-product.png.png" type="image/x-icon">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .fade-in-section {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in-section.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .nav-link.active {
+            font-weight: 700;
+            color: #4f46e5; /* text-indigo-600 */
+        }
+        .navbar-scrolled .nav-link.active {
+             color: #4f46e5; /* text-indigo-600 */
+        }
+        .navbar-top .nav-link.active {
+            color: #111827; /* text-gray-900 */
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-800 antialiased">
+
+    <header id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 navbar-top">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#hero" class="text-xl font-bold text-gray-900" id="logo">ECODIAMONK</a>
+            <nav class="hidden lg:flex space-x-6 text-sm">
+                <a href="#problem" data-section="problem" class="nav-link text-gray-700 hover:text-indigo-600 transition-all duration-200">Target Keluhan</a>
+                <a href="#about" data-section="about" class="nav-link text-gray-700 hover:text-indigo-600 transition-all duration-200">Detail Produk</a>
+                <a href="#benefits" data-section="benefits" class="nav-link text-gray-700 hover:text-indigo-600 transition-all duration-200">Komposisi</a>
+                <a href="#testimonials" data-section="testimonials" class="nav-link text-gray-700 hover:text-indigo-600 transition-all duration-200">Bukti Pengguna</a>
+                <a href="#order" data-section="order" class="nav-link text-gray-700 hover:text-indigo-600 transition-all duration-200">Pemesanan</a>
+            </nav>
+            <a href="https://wa.me/628977770927?text=Halo,%20Bapak%20Abdul%20Aziz.%20Saya%20tertarik%20dengan%20produk%20Ecodiamonk." target="_blank" class="hidden lg:inline-block bg-indigo-600 text-white font-bold py-2 px-4 rounded-full text-sm hover:bg-indigo-700 transition-all duration-300">
+                Hubungi via WhatsApp
+            </a>
+            <button id="mobile-menu-button" class="lg:hidden text-gray-800 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden lg:hidden bg-white/95 backdrop-blur-sm">
+             <a href="#problem" class="nav-link-mobile block py-2 px-6 text-gray-700 hover:bg-gray-200">Target Keluhan</a>
+             <a href="#about" class="nav-link-mobile block py-2 px-6 text-gray-700 hover:bg-gray-200">Detail Produk</a>
+             <a href="#benefits" class="nav-link-mobile block py-2 px-6 text-gray-700 hover:bg-gray-200">Komposisi</a>
+             <a href="#testimonials" class="nav-link-mobile block py-2 px-6 text-gray-700 hover:bg-gray-200">Bukti Pengguna</a>
+             <a href="#order" class="nav-link-mobile block py-2 px-6 text-gray-700 hover:bg-gray-200">Pemesanan</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="min-h-screen flex items-center justify-center bg-white text-gray-900 relative">
+            <div class="text-center z-10 px-4">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">Solusi Herbal. Hasil Nyata.</h1>
+                <p class="mt-4 text-lg md:text-xl max-w-2xl mx-auto text-gray-600">Ecodiamonk. Formulasi tiga ekstrak herbal untuk membantu memelihara daya tahan dan kesehatan tubuh Anda.</p>
+                <a href="https://wa.me/628977770927?text=Halo,%20Bapak%20Abdul%20Aziz.%20Saya%20ingin%20bertanya%20lebih%20lanjut%20mengenai%20Ecodiamonk." target="_blank" class="mt-8 inline-block bg-indigo-600 text-white font-bold py-3 px-8 rounded-full hover:bg-indigo-700 transform hover:scale-105 transition-all duration-300 shadow-lg shadow-indigo-500/30 text-lg">
+                    Pesan & Konsultasi
+                </a>
+            </div>
+        </section>
+        
+        <section id="problem" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6 text-center fade-in-section">
+                <h2 class="text-3xl font-bold mb-4">Target Keluhan</h2>
+                <p class="max-w-2xl mx-auto text-slate-600 mb-12">Diformulasikan secara spesifik untuk membantu tubuh dalam mengatasi keluhan umum berikut:</p>
+                <div class="flex flex-wrap justify-center items-center gap-3 max-w-4xl mx-auto">
+                    <span class="bg-white border border-gray-300 text-gray-700 px-4 py-2 rounded-full font-medium">Kolesterol</span>
+                    <span class="bg-white border border-gray-300 text-gray-700 px-4 py-2 rounded-full font-medium">Asam Urat</span>
+                    <span class="bg-white border border-gray-300 text-gray-700 px-4 py-2 rounded-full font-medium">Diabetes</span>
+                    <span class="bg-white border border-gray-300 text-gray-700 px-4 py-2 rounded-full font-medium">Darah Tinggi</span>
+                    <span class="bg-white border border-gray-300 text-gray-700 px-4 py-2 rounded-full font-medium">Stroke</span>
+                    <span class="bg-white border border-gray-300 text-gray-700 px-4 py-2 rounded-full font-medium">Jantung</span>
+                    <span class="bg-white border border-gray-300 text-gray-700 px-4 py-2 rounded-full font-medium">Maag & Lambung</span>
+                    <span class="bg-white border border-gray-300 text-gray-700 px-4 py-2 rounded-full font-medium">dan lain-lain...</span>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about" class="py-24 bg-white">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center fade-in-section">
+                <div>
+                    <img src="img/ecodiamonk-product.png.png" alt="Produk Ecodiamonk" class="rounded-lg shadow-xl mx-auto">
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">Detail Produk</h2>
+                    <p class="text-slate-600 mb-6 leading-relaxed">
+                        Diproduksi oleh <strong>PT. BAYU INSAN GEMILANG PROFITINDO</strong>, Ecodiamonk adalah suplemen herbal berbentuk tetes untuk efektivitas dan kemudahan konsumsi.
+                    </p>
+                    <ul class="space-y-3 text-slate-700">
+                        <li class="flex items-start"><span class="text-indigo-500 mr-3 mt-1">✔</span> **100% Herbal:** Ekstrak Daun Kelor, Sirsak, & Lo Han Kuo murni.</li>
+                        <li class="flex items-start"><span class="text-indigo-500 mr-3 mt-1">✔</span> **Teruji & Aman:** BPOM TR 202601521 & Sertifikat Halal.</li>
+                        <li class="flex items-start"><span class="text-indigo-500 mr-3 mt-1">✔</span> **Praktis:** Cukup diteteskan ke dalam air minum.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="py-24 bg-gray-900 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-16">Komposisi</h2>
+                <div class="grid md:grid-cols-3 gap-10 fade-in-section">
+                    <div class="text-center p-4">
+                        <h3 class="font-bold text-2xl text-gray-200 mb-2">Daun Kelor</h3>
+                        <p class="opacity-80">Sumber nutrisi dan antioksidan untuk daya tahan tubuh.</p>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="font-bold text-2xl text-gray-200 mb-2">Daun Sirsak</h3>
+                        <p class="opacity-80">Membantu melawan peradangan dan menjaga kesehatan sel.</p>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="font-bold text-2xl text-gray-200 mb-2">Buah Lo Han Kuo</h3>
+                         <p class="opacity-80">Antioksidan kuat untuk melindungi sel dari kerusakan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6 fade-in-section">
+                <h2 class="text-3xl font-bold text-center mb-16">Galeri</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <img class="h-auto max-w-full rounded-lg shadow-md transition-transform duration-300 hover:scale-105" src="img/ecodiamonk-product.png.png" alt="Galeri Ecodiamonk 1">
+                    <img class="h-auto max-w-full rounded-lg shadow-md transition-transform duration-300 hover:scale-105" src="img/daun-kelor.jpg" alt="Daun Kelor">
+                    <img class="h-auto max-w-full rounded-lg shadow-md transition-transform duration-300 hover:scale-105" src="img/daun-sirsak.jpg" alt="Daun Sirsak">
+                    <img class="h-auto max-w-full rounded-lg shadow-md transition-transform duration-300 hover:scale-105" src="img/lo-han-kuo.jpg" alt="Buah Lo Han Kuo">
+                </div>
+            </div>
+        </section>
+
+        <section id="healing-crisis" class="py-24 bg-white">
+            <div class="container mx-auto px-6 fade-in-section">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl font-bold mb-4">Informasi Reaksi Awal</h2>
+                    <p class="text-slate-600 mb-8">Beberapa pengguna dapat mengalami reaksi detoksifikasi sementara. Ini adalah respon normal tubuh terhadap proses pembersihan toksin.</p>
+                </div>
+                <div class="max-w-3xl mx-auto space-y-3">
+                    <div class="border rounded-lg bg-white">
+                        <button class="accordion-header w-full flex justify-between items-center p-4 font-semibold text-left">Reaksi Umum & Artinya<span class="accordion-icon transition-transform duration-300 transform">+</span></button>
+                        <div class="accordion-content hidden p-4 border-t bg-gray-50 text-slate-700"><p><strong>Pusing, Mual, Mengantuk:</strong> Indikasi proses detoksifikasi pada sistem peredaran darah.</p></div>
+                    </div>
+                    <div class="border rounded-lg bg-white">
+                         <button class="accordion-header w-full flex justify-between items-center p-4 font-semibold text-left">Gatal-gatal atau Ruam<span class="accordion-icon transition-transform duration-300 transform">+</span></button>
+                        <div class="accordion-content hidden p-4 border-t bg-gray-50 text-slate-700"><p>Indikasi pembuangan toksin melalui pori-pori kulit. Disarankan meningkatkan asupan air putih.</p></div>
+                    </div>
+                     <div class="border rounded-lg bg-white">
+                         <button class="accordion-header w-full flex justify-between items-center p-4 font-semibold text-left">Nyeri pada Bagian Tertentu<span class="accordion-icon transition-transform duration-300 transform">+</span></button>
+                        <div class="accordion-content hidden p-4 border-t bg-gray-50 text-slate-700"><p>Indikasi bahwa herbal sedang bekerja pada area tubuh yang membutuhkan perbaikan.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6 fade-in-section">
+                <h2 class="text-3xl font-bold text-center mb-16">Bukti Pengguna</h2>
+                <div class="mb-20 text-center">
+                    <h3 class="text-2xl font-semibold mb-4 text-slate-700">Dokumentasi Perbaikan Sel Darah</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+                        <img class="h-auto w-full rounded-lg shadow-md transition-transform duration-300 hover:scale-105" src="img/fase1.jpg" alt="Fase 1 Kondisi Darah">
+                        <img class="h-auto w-full rounded-lg shadow-md transition-transform duration-300 hover:scale-105" src="img/fase2.jpg" alt="Fase 2 Kondisi Darah">
+                        <img class="h-auto w-full rounded-lg shadow-md transition-transform duration-300 hover:scale-105" src="img/fase3.jpg" alt="Fase 3 Kondisi Darah">
+                        <img class="h-auto w-full rounded-lg shadow-md transition-transform duration-300 hover:scale-105" src="img/fase4.jpg" alt="Fase 4 Kondisi Darah">
+                    </div>
+                </div>
+                <div class="mb-20 text-center">
+                    <h3 class="text-2xl font-semibold mb-8 text-slate-700">Video Testimoni</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v1.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v2.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v3.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v4.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v5.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v6.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v7.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v8.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v9.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v10.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v11.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v12.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v13.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v14.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v15.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v16.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v17.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v18.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v19.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v20.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v21.mp4" controls preload="metadata"></video>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 mt-8">
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v22.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v23.mp4" controls preload="metadata"></video>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <h2 class="text-3xl mt-16 font-bold text-center mb-4">Demonstrasi Produk</h2>
+                    <div class="max-w-3xl mx-auto">
+                        <video class="w-full aspect-video rounded-lg shadow-xl bg-black" controls preload="metadata"><source src="videos/Tutor.mp4" type="video/mp4"></video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="how-to-use" class="py-24 bg-white">
+            <div class="container mx-auto px-6 fade-in-section">
+                <h2 class="text-3xl font-bold text-center mb-16">Cara Penggunaan</h2>
+                <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 p-6 rounded-lg border">
+                        <h3 class="font-bold text-xl mb-3 text-gray-800">Dosis Anjuran</h3>
+                        <ol class="space-y-3 list-decimal list-inside text-slate-700">
+                            <li>Siapkan ±250 ml air (suhu ruang/hangat).</li>
+                            <li>Teteskan 2-3 tetes Ecodiamonk.</li>
+                            <li><strong>Pemeliharaan:</strong> 2x sehari.</li>
+                            <li><strong>Terapi:</strong> 3-4x sehari.</li>
+                        </ol>
+                    </div>
+                     <div class="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
+                        <h3 class="font-bold text-xl mb-3 text-yellow-800">Perhatian</h3>
+                        <ul class="space-y-3 list-disc list-inside text-slate-700">
+                            <li>Untuk penderita gangguan ginjal dan jantung, awali dengan dosis 1 tetes per hari.</li>
+                             <li>Sempurnakan ikhtiar dengan berdoa sesuai keyakinan.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="order" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6 text-center fade-in-section">
+                <h2 class="text-3xl md:text-4xl font-bold">Investasi Kesehatan Anda</h2>
+                <p class="text-slate-600 mt-3 mb-8 max-w-xl mx-auto">Hubungi saya untuk pemesanan dan informasi produk asli Ecodiamonk.</p>
+                <div class="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto">
+                    <img src="img/PP.png" alt="Foto Abdul Aziz" class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-indigo-200">
+                    <p class="font-semibold text-lg">Abdul Aziz</p>
+                    <p class="text-sm text-slate-500">Distributor Resmi BIGPRO - ECODIAMONK</p>
+                    <p class="text-4xl font-bold text-slate-800 my-4">0897 7770 927</p>
+                     <a href="https://wa.me/628977770927?text=Halo,%20Bapak%20Abdul%20Aziz.%20Saya%20ingin%20memesan%20Ecodiamonk." target="_blank" class="w-full inline-block bg-indigo-600 text-white font-bold py-4 px-8 rounded-lg hover:bg-indigo-700 transition-all duration-300 shadow-lg text-xl">
+                        Pesan via WhatsApp
+                    </a>
+                </div>
+                <div class="mt-8 flex justify-center items-center space-x-6">
+                    <div class="text-center">
+                        <img src="img/BPOM.png" alt="Logo BPOM" class="h-12 mx-auto">
+                        <p class="text-xs text-gray-600 mt-1">TR 202601521</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="img/Halal.png" alt="Logo Halal" class="h-12 mx-auto">
+                        <p class="text-xs text-gray-600 mt-1">Tersertifikasi Halal</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="bg-black text-gray-400">
+        <div class="container mx-auto px-6 py-12">
+             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-2">Ecodiamonk</h3>
+                    <p class="text-sm">Produk dari: PT. BAYU INSAN GEMILANG PROFITINDO.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-2">Distributor Resmi</h4>
+                     <p class="text-sm">Abdul Aziz<br>WhatsApp: <a href="https://wa.me/628977770927" class="hover:text-white">0897 7770 927</a></p>
+                </div>
+             </div>
+            <div class="mt-10 pt-6 border-t border-gray-700 text-center text-xs">
+                <p><strong>Disclaimer:</strong> Hasil pada setiap individu dapat bervariasi. Produk ini adalah jamu herbal yang berfungsi membantu memelihara kesehatan dan bukan pengganti obat dari dokter.</p>
+                <p class="mt-4">© 2025 Abdul Aziz - Distributor Resmi Ecodiamonk.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            
+            const navbar = document.getElementById('navbar');
+            const logo = document.getElementById('logo');
+            const navLinks = navbar.querySelectorAll('.nav-link');
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileNavLinks = mobileMenu.querySelectorAll('.nav-link-mobile');
+            const sections = document.querySelectorAll('section');
+
+            // 1. Navbar Scroll Effect
+            const handleNavbarScroll = () => {
+                if (window.scrollY > 50) {
+                    if (!navbar.classList.contains('navbar-scrolled')) {
+                        navbar.classList.add('bg-white/90', 'shadow-lg', 'navbar-scrolled', 'backdrop-blur-sm');
+                        navbar.classList.remove('navbar-top');
+                    }
+                } else {
+                    if (navbar.classList.contains('navbar-scrolled')) {
+                        navbar.classList.remove('bg-white/90', 'shadow-lg', 'navbar-scrolled', 'backdrop-blur-sm');
+                        navbar.classList.add('navbar-top');
+                    }
+                }
+            };
+            
+            // 2. Mobile Menu Logic
+            mobileMenuButton.addEventListener('click', () => { mobileMenu.classList.toggle('hidden'); });
+            mobileNavLinks.forEach(link => { link.addEventListener('click', () => mobileMenu.classList.add('hidden')); });
+
+            // 3. Active Nav Link Highlighting
+            const highlightNavLink = () => {
+                let currentSection = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    if (pageYOffset >= sectionTop - 100) { currentSection = section.getAttribute('id'); }
+                });
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.dataset.section === currentSection) { link.classList.add('active'); }
+                });
+            };
+
+            // 4. Fade-in Animation on Scroll
+            const fadeInSections = document.querySelectorAll('.fade-in-section');
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+            fadeInSections.forEach(section => observer.observe(section));
+
+            // 5. Accordion Logic
+            const accordionHeaders = document.querySelectorAll('.accordion-header');
+            accordionHeaders.forEach(header => {
+                header.addEventListener('click', () => {
+                    const accordionContent = header.nextElementSibling;
+                    const accordionIcon = header.querySelector('.accordion-icon');
+                    accordionContent.classList.toggle('hidden');
+                    accordionIcon.textContent = accordionContent.classList.contains('hidden') ? '+' : '-';
+                });
+            });
+
+            // 6. LAZY LOADING UNTUK VIDEO GRID
+            const lazyVideos = document.querySelectorAll('video.lazy-video');
+            const videoObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const video = entry.target;
+                        if(video.dataset.src && video.children.length === 0){
+                            const source = document.createElement('source');
+                            source.src = video.dataset.src;
+                            source.type = 'video/mp4';
+                            video.appendChild(source);
+                            video.load();
+                        }
+                        observer.unobserve(video);
+                    }
+                });
+            }, { rootMargin: '200px' });
+            lazyVideos.forEach(video => videoObserver.observe(video));
+            
+            // Add Event Listeners
+            window.addEventListener('scroll', () => {
+                handleNavbarScroll();
+                highlightNavLink();
+            });
+
+            // Initial calls
+            handleNavbarScroll();
+            highlightNavLink();
+        });
+    </script>
+</body>
+</html>
